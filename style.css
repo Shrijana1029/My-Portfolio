@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(88, 137, 88);
+}
+.container
+{
+    height: 100%;
+    width=100%;
+    background-color: rgb(97, 130, 130);
+    position: relative;
+}
+.navbar
+{
+    text-align: right;
+    padding-top: 60px;
+
+
+}
+.navbar logo 
+{
+
+}
+.navbar ul li a{
+    align-items: space;
+    text-decoration: none;
+    font-size: 1.8vw;
+    display: inline;
+    /* margin: 20px; */
+    padding:40px;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: rgb(243, 140, 6);
+}
+.container2{
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.container2 h1{
+    font-size: 40px;
+    color:black;
+
+}
+span{
+   
+    /* font-size: 20px; */
+    color: rgb(243, 140, 6);
+}
+p{
+    font-size:30px;
+}
+.button{
+    background-color: rgb(243, 140, 6); /* Green */
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+/* picture lai right side */
+.image{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+}
