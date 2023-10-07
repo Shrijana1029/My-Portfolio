@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: rgb(88, 137, 88);
+    background-color: black;
+    color: whit;
 }
 .container
 {
@@ -13,7 +14,7 @@
 }
 .navbar
 {
-    text-align: right;
+    text-align: center;
     padding-top: 60px;
 
 
@@ -25,14 +26,14 @@
 .navbar ul li a{
     align-items: space;
     text-decoration: none;
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     display: inline;
     /* margin: 20px; */
     padding:40px;
-    color: white;
+    color:  rgb(243, 140, 6);
 }
 .navbar ul li a:hover{
-    color: rgb(243, 140, 6);
+    color: rgb(65, 6, 243);
 }
 .container2{
     margin-left: 8%;
@@ -40,7 +41,7 @@
 }
 .container2 h1{
     font-size: 40px;
-    color:black;
+    color:white
 
 }
 span{
@@ -50,6 +51,7 @@ span{
 }
 p{
     font-size:30px;
+    color: white;
 }
 .button{
     background-color: rgb(243, 140, 6); /* Green */
@@ -60,11 +62,12 @@ p{
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
+    border-color: white;
 }
 /* picture lai right side */
 .image{
-    width: 45%;
-    height: 80%;
+    width: 30%;
+    height: 75%;
     position: absolute;
     bottom: 0%;
     right: 100px;
