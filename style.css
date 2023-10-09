@@ -35,11 +35,28 @@
     text-decoration: none;
     color:rgb(243, 140, 6);
     margin: 46px;
+    transition: 0.3s;
 }
 
 .navbar a:hover{
     color:white;
 }
+/* .navbar a::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background:rgb(243, 140, 6);
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+
+}
+.navbar a:hover::after{
+    opacity: 1;
+} */
 .container2{
     margin-left: 8%;
     margin-top: 15%;
